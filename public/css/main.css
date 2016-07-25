@@ -1,0 +1,38 @@
+        html{
+                height: 100%;
+                background-color: #eee;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                display: table;
+                font-weight: 100;
+                font-family: 'Lato';
+                background-image: url('img.responsive-web-design');
+            }
+
+            .container {
+                text-align: center;
+                display: table-cell;
+                vertical-align: middle;
+
+            }
+
+            .content {
+                text-align: center;
+                display: inline-block;
+            }
+
+            .title {
+                font-size: 35px;
+            }
+            label{
+
+                float: left;
+            }
+            .ui.menu{
+
+                float: right !important;
+            }
